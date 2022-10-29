@@ -1,0 +1,249 @@
+*{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+}
+
+.InputDiv{
+
+    grid-column: 1;
+    grid-row: 2;
+   
+    padding: 1rem;
+    padding-left: 0.75rem;
+    background-color: #6b6b6b;
+    border-radius: 10px;
+}
+
+#Marca{
+    font-size: 12px;
+    width: 50px;
+    height: 50px;
+    grid-row: 1;
+    grid-column: 1;
+}
+#Marca > h1{
+    font-size: 24px;
+}
+
+#Titulo{
+    margin-top: 0px;
+    background-color: #cfcfcf;
+    width: 160px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5%;
+}
+#Titulo:focus{
+    background-color: #ffffff
+}
+#Titulo:hover{
+    background-color: #ffffff
+}
+
+#Texto{
+    background-color: #cfcfcf;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 160px;
+}
+#Texto:focus{
+    background-color: #ffffff;
+}
+#Texto:hover{
+    background-color: #ffffff
+}
+
+.InputField{
+    resize: none;
+    border:none;
+    margin-top: 5px;
+    background-color: #cfcfcf;
+    width: 47%;
+}
+.InputField:focus{
+    background-color: #ffffff;
+}
+.InputField:hover{
+    background-color: #ffffff;
+}
+
+.Btn-Deletar{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+}
+.Btn-Deletar:hover{
+    appearance: auto;
+    border: 1px;
+    background: auto;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.Tarefas{
+    background-color: #6b6b6b;
+    padding: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+.Texto{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 1rem;
+    overflow: hidden;
+    resize: none;
+}
+.Titulo{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 1.25rem;
+    overflow-x: scroll;
+    width: 9rem
+}
+
+.grid-dias{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 1fr 175px 1250px 1fr;
+    grid-gap: 10px;
+
+    padding-top: 10px;
+}
+
+.Legenda{
+    grid-column: 1;
+    grid-row: 3;
+    height: 50px;
+    width: 100px
+}
+
+.alta{
+    margin-top: 15px;
+    background-color: red;
+}
+
+.media{
+    margin-top: 70px;
+    background-color: rgb(196, 95, 0);
+}
+
+
+.baixa{
+    margin-top: 125px;
+    background-color: rgb(1, 1, 143);
+}
+
+.nula{
+    margin-top: 180px;
+    background-color: #6b6b6b;
+}
+
+.Prioridade{
+    height: 10px;
+    width: 1rem;
+}
+.Alta{
+    background-color: red;
+}
+.Media{
+    background-color: rgb(196, 95, 0);
+}
+.Baixa{
+    background-color: rgb(1, 1, 143);
+}
+.Nula{
+    background-color: #6b6b6b;
+}
+
+.grid-dias > p{
+    background-color: #6b6b6b;
+    padding: 1rem;
+    border: 0px;
+    border-radius: 5%;
+    height: 1rem;
+    
+}
+
+.grid-dias > #Segunda{
+    grid-column: 2;
+    grid-row: 1;
+
+}
+.grid-dias > #Terça{    
+    grid-column: 3;
+    grid-row: 1;
+
+}
+.grid-dias > #Quarta{
+    grid-column: 4;
+    grid-row: 1;
+
+}
+.grid-dias > #Quinta{
+    grid-column: 5;
+    grid-row: 1;
+
+}
+.grid-dias > #Sexta{
+    grid-column: 6;
+    grid-row: 1;
+
+}
+.grid-dias > #Sabado{
+    grid-column: 7;
+    grid-row: 1;
+
+}
+.grid-dias > #Domingo{
+    grid-column: 8;
+    grid-row: 1;
+
+}
+.grid-dias > #TarefasSegunda{
+    grid-column: 2;
+    grid-row: 2;
+}
+.grid-dias > #TarefasTerça{
+    grid-column: 3;
+    grid-row: 2;
+}
+.grid-dias > #TarefasQuarta{
+    grid-column: 4;
+    grid-row: 2;
+}
+.grid-dias > #TarefasQuinta{
+    grid-column: 5;
+    grid-row: 2;
+}
+.grid-dias > #TarefasSexta{
+    grid-column: 6;
+    grid-row: 2;
+}
+.grid-dias > #TarefasSabado{
+    grid-column: 7;
+    grid-row: 2;
+}
+.grid-dias > #TarefasDomingo{
+    grid-column: 8  ;
+    grid-row: 2;
+}
+.grid-dias > .InputField{
+    grid-column: 1;
+    grid-row: 1;
+
+}
